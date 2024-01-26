@@ -1,0 +1,78 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color:darkslategray;
+}
+.calculator{
+    background-color:cornsilk;
+    color:black;
+    padding: 20px;
+    border-radius:15px;
+    box-shadow:0 0 10px cornsilk;
+    text-align: center;
+    transition: transform 0.6s ease-in-out;
+}
+.calculator:hover{
+    transform: scale(1.05);
+}
+.bill-container,.result-container,.tip-container{
+    margin-bottom: 20px;
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.bill-container,.result-container,.tip-container:hover{
+    opacity: 1;
+     transform: translateY(0);
+}
+input,select,button{
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid tan;
+    border-radius: 6px;
+    width: 90%;
+    transition: box-shadow 0.6s ease;
+}
+input:hover,select:hover,button:hover{
+    box-shadow: 0 0 10px indianred;
+}
+button{
+    color:black;
+    background-color:coral;
+    cursor: pointer;
+    transition: 0.6s background-color ease;
+}
+button:hover{
+    background-color:white;
+}
+h1{
+    color:black;
+    font-weight: bold;
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.calculator:hover h1{
+opacity: 1;
+transform: translateY(0);
+}
+h3{
+    color:black;
+    margin-top: 0;
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.calculator:hover h3{
+    opacity: 1;
+    transform: translateY(0);
+}
+p{
+    font-weight: bold;
+    color:black;
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+.calculator:hover p{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
